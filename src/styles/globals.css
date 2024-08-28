@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./fonts.css";
+@import "./colors.css";
+
+@layer utilities {
+  .center {
+    @apply flex items-center justify-center;
+  }
+
+  .center-col {
+    @apply flex flex-col items-center justify-center;
+  }
+
+  .text-gradient {
+    background: radial-gradient(circle, #3f3f3f, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+  }
+
+  .title-gradient {
+    background: radial-gradient(circle, #8e7049, #f2e6d4, #815b2e, #f2e6d4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-stroke-width: 1px; /* largura da borda */
+    -webkit-text-stroke-color: #0000002c; /* cor da borda */
+  }
+
+  .secondarytext-gradient {
+    background: radial-gradient(
+      circle,
+      var(--popover-foreground),
+      var(--foreground)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .main-gradient {
+    background: radial-gradient(
+      circle,
+      var(--primary-foreground),
+      var(--primary)
+    );
+  }
+
+  .secondary-gradient {
+    background: radial-gradient(
+      circle,
+      var(--popover-foreground),
+      var(--foreground)
+    );
+  }
+
+  .contact-section {
+    background: radial-gradient(circle, #000000, #000000, #000000d2);
+
+    /* background: #000000; */
+  }
+
+  .hero-img {
+    zoom: 1.4 !important;
+  }
+
+  .main-button {
+    @apply bg-transparent transition-all border-[2px] border-solid border-card text-white h-[55px] px-5 py-2 rounded-md w-[50%] hover:bg-card hover:text-black;
+  }
+
+  .hero-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-section::before,
+  .hero-section::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(200px);
+    z-index: 0;
+  }
+
+  .hero-section::before {
+    width: 300px;
+    height: 300px;
+    background: rgba(255, 39, 107, 0.7); /* Cor do primeiro círculo */
+    bottom: 10%;
+    left: 0;
+  }
+
+  .hero-section::after {
+    width: 400px;
+    height: 400px;
+    background: rgba(116, 69, 26, 0.7); /* Cor do segundo círculo */
+    top: 10%;
+    right: 0;
+  }
+}
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0.8rem;
+    height: 0.5rem;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--foreground);
+  }
+}
