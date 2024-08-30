@@ -1,0 +1,90 @@
+{
+  "header": {
+    "link1": "Início",
+    "link2": "Nossos cabelos",
+    "link3": "Galeria",
+    "link4": "Sobre nós",
+    "link5": "FAQ",
+    "link6": "Contato"
+  },
+  "hero": {
+    "title": "A Excelência dos cabelos!",
+    "subtitle": "A ISLAVA tem o imenso orgulho de prover os seus clientes, com cabelo cuticular de elevada qualidade.",
+    "cta": "Agende agora"
+  },
+  "keratin": {
+    "description": "O Sistema ISLAVA KERATINA, é o mais popular sistema de fixação de extensões de cabelo, mundialmente conhecido pelos profissionais da área.",
+    "section1": "Cabelos Virgens",
+    "section2": "Cabelos Morenos",
+    "section3": "Cabelos Louros",
+    "section4": {
+      "title": "PONTAS",
+      "title1": "Ponta Fina",
+      "description1": "A Extensão de cabelo imita o crescimento natural do cabelo na cabeça, ou seja, cada extensão é constituída por múltiplos tamanhos de cabelos.",
+      "title2": "Ponta Dupla",
+      "description2": "As extensões de cabelo têm aponta cheia, com elevada densidade, o que atribui um volume de luxo ao resultado final da aplicação."
+    }
+  },
+  "tape": {
+    "cooming": "Em breve na nossa loja",
+    "description": "INSLAVA TAPES é o mais rápido método de colocação de extensões de cabelo, bem como um dos mais seguros e rentáveis."
+  },
+  "footer": {
+    "titleAbout": "Sobre Nós",
+    "about": "Somos uma loja especializada em mega hair feminino, oferecendo produtos de alta qualidade para realçar sua beleza. Nossa missão é proporcionar confiança e autoestima às nossas clientes.",
+    "adress": "Endereço",
+    "contact": "Contato",
+    "tel": "Telefone",
+    "linkTitle": "Links Úteis",
+    "link1": "Início",
+    "link2": "Produtos",
+    "link3": "Sobre"
+  },
+  "contact": {
+    "title": "Entre em Contato",
+    "input1": "Nome",
+    "input2": "Telefone",
+    "input3": "Mensagem",
+    "location": "br",
+    "textPlaceholder": "Quero pedir um Mega Hair",
+    "cta": "Enviar"
+  },
+  "products": {
+    "title": "Nossos Produtos",
+    "description": "Descubra a coleção exclusiva de mega hair que transformará seu visual. Cabelos 100% naturais e de alta qualidade, prontos para realçar a sua beleza."
+  },
+  "benefits": {
+    "title": "Benefícios",
+    "subtitle": "Alguns de nossos benefícios",
+    "text1": "Sem quantidade mínima de pedido",
+    "text2": "Entregamos em até 48 horas",
+    "text3": "Melhores preços no mercado de qualidade premium",
+    "text4": "Troca e devolução facilitadas",
+    "text5": "Garantia de qualidade 100% natural",
+    "text6": "Atendimento personalizado"
+  },
+  "gallery": {
+    "title": "Galeria",
+    "cta": "Ver mais"
+  },
+  "about": {
+    "title": "Sobre nós",
+    "description": "Somos apaixonados por realçar sua beleza e bem-estar. Nossa equipe de profissionais está dedicada a oferecer o melhor atendimento e resultados excepcionais. Descubra o que faz de nós a escolha ideal para cuidar de você e de sua beleza."
+  },
+  "FAQ": {
+    "title": "PERGUNTAS FREQUENTES",
+    "subtitle": "Perguntas frequentes",
+    "question1": "O que é o sistema de tape de extensão de pelo?",
+    "answer1": "São uma técnica de alongamento de cabelo, a partir da aplicação de porções de cabelo natural, que darão um efeito de comprimento e volume.",
+    "question2": "Quanto tempo duram as Extensões de cabelo?",
+    "answer2": "Podem durar uma média de 6 meses a 2 anos, com os devidos cuidados.",
+    "question3": " Como cuidar das suas extensões de cabelo?",
+    "answer3": "Use produtos específicos, evite calor excessivo e faça manutenção regularmente, no máximo de 3 em 3 meses.",
+    "question4": "Posso fazer atividades físicas com Extensões de cabelo?",
+    "answer4": "Sim, sem problema , apenas mantenha os cabelos secos presos para evitar emaranhar."
+  },
+  "whatsapp": {
+    "title": "Entre em contato",
+    "text": "Vamos conversar?"
+  }
+}

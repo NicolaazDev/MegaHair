@@ -1,0 +1,90 @@
+{
+  "header": {
+    "link1": "Home",
+    "link2": "Our Hair",
+    "link3": "Gallery",
+    "link4": "About Us",
+    "link5": "FAQ",
+    "link6": "Contact"
+  },
+  "hero": {
+    "title": "Hair Excellency",
+    "subtitle": "ISLAVA is highly proud to provide to his clients, the BEST quality of cuticular hair.",
+    "cta": "Book Now"
+  },
+  "keratin": {
+    "description": "The ISLAVA KERATIN is the most popular hair fixing system used by hairdressers all over the world.",
+    "section1": "Virgin Hair",
+    "section2": "Browns Hair",
+    "section3": "Blondes Hair",
+    "section4": {
+      "title": "ENDS",
+      "title1": "SINGLE DRAWN",
+      "description1": "Each extension mimics the natural growth of the hair on the head, every extension has different lengths of hair strands.",
+      "title2": "SUPER DOUBLE DRAWN",
+      "description2": "This hair extensions have thicker tips, with high density, that gives a voluptuous volume to the final results."
+    }
+  },
+  "tape": {
+    "cooming": "Coming Soon to Our Store",
+    "description": "ISLAVA TAPES is the Fastest method of hair extensions application, and one of the safest and most profitable."
+  },
+  "footer": {
+    "titleAbout": "About Us",
+    "about": "We are a store specializing in women's hair extensions, offering high-quality products to enhance your beauty. Our mission is to provide confidence and self-esteem to our clients.",
+    "adress": "Address",
+    "contact": "Contact",
+    "tel": "Phone",
+    "linkTitle": "Useful Links",
+    "link1": "Home",
+    "link2": "Products",
+    "link3": "About"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "input1": "Name",
+    "input2": "Phone",
+    "input3": "Message",
+    "location": "br",
+    "textPlaceholder": "I want to order a Mega Hair",
+    "cta": "Send"
+  },
+  "products": {
+    "title": "Our Products",
+    "description": "Discover the exclusive collection of hair extensions that will transform your look. 100% natural, high-quality hair, ready to enhance your beauty."
+  },
+  "benefits": {
+    "title": "Benefits",
+    "subtitle": "Some of Our Benefits",
+    "text1": "No minimum order quantity",
+    "text2": "Delivery within 48 hours",
+    "text3": "Best prices in the premium quality market",
+    "text4": "Easy returns and exchanges",
+    "text5": "100% natural quality guarantee",
+    "text6": "Personalized service"
+  },
+  "gallery": {
+    "title": "Gallery",
+    "cta": "View More"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "We are passionate about enhancing your beauty and well-being. Our team of professionals is dedicated to offering the best service and exceptional results. Discover what makes us the ideal choice for taking care of you and your beauty."
+  },
+  "FAQ": {
+    "title": "FREQUENTLY ASKED QUESTIONS",
+    "subtitle": "Frequently Asked Questions",
+    "question1": "What is the tape-in hair extension system?",
+    "answer1": "It is a hair lengthening technique, involving the application of portions of natural hair to give an effect of length and volume.",
+    "question2": "How long do hair extensions last?",
+    "answer2": "They can last an average of 6 months to 2 years with proper care.",
+    "question3": "How to take care of your hair extensions?",
+    "answer3": "Use specific products, avoid excessive heat, and maintain them regularly, every 3 months at most.",
+    "question4": "Can I do physical activities with hair extensions?",
+    "answer4": "Yes, no problem. Just keep the hair dry and tied up to avoid tangling."
+  },
+  "whatsapp": {
+    "title": "Get in Touch",
+    "text": "Shall we talk?"
+  }
+}
