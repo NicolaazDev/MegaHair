@@ -53,33 +53,33 @@ export const ProductsSection = () => {
   return (
     <section
       id="products"
-      className="center min-h-[600px] h-[80vh] pr-0 bg-background relative"
+      className="center min-h-[600px] h-[80vh] sm:!h-auto sm:center-col sm:py-8 pr-0 bg-background relative"
     >
       <div className="max-w-[1440px] center w-full !justify-between !items-start ">
-        <div className="center-col !items-start w-[40%]">
-          <h2 className="text-[80px] uppercase leading-[1] font-bold -ml-[4px] text-foreground mb-4">
+        <div className="center-col !items-start w-[40%] sm:w-full">
+          <h2 className="text-[80px] uppercase leading-[1] font-bold -ml-[4px] text-foreground mb-4 sm:text-[60px] sm:text-center">
             {t("title")}
           </h2>
-          <p className="text-lg text-foreground mb-8 text-start max-w-xl">
+          <p className="text-lg text-foreground mb-8 text-start max-w-xl sm:text-center sm:w-full">
             {t("description")}
           </p>
-          <div className="center space-x-1">
+          <div className="center space-x-1 sm:center-col sm:space-x-0 sm:space-y-2 sm:w-full">
             <Link
               href={"/tapes"}
-              className="main-button text-center !w-[240px] whitespace-nowrap !bg-secondary !text-foreground"
+              className="main-button text-center !w-[240px] sm:!w-[95%] whitespace-nowrap !bg-secondary !text-foreground"
             >
               TAPE SYSTEM
             </Link>
             <Link
               href={"/keratin"}
-              className="main-button text-center !w-[240px] whitespace-nowrap !bg-secondary !text-foreground"
+              className="main-button text-center !w-[240px] sm:!w-[95%] whitespace-nowrap !bg-secondary !text-foreground"
             >
               KERATIN SYSTEM
             </Link>
           </div>
         </div>
       </div>
-      <div className="w-full max-w-5xl absolute right-0">
+      <div className="w-full max-w-5xl absolute right-0 sm:relative sm:scale-[0.9]">
         <Carousel>
           <CarouselContent>
             {products.map((product) => (

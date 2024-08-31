@@ -9,17 +9,17 @@ function GallerySection() {
   return (
     <section
       id="gallery"
-      className="gallery-section py-12 bg-foreground mt-[-14%] galeria-section relative"
+      className="gallery-section py-12 bg-foreground mt-[-14%] sm:mt-[-32%] galeria-section relative"
     >
       <div className=" mx-auto px-4 max-w-[1440px] mt-[12%]">
         <h2 className="text-[100px] title-gradient font-bold font-bowens tracking-wider text-center mb-8">
           {t("title")}
         </h2>
-        <div className="grid grid-cols-3 grid-rows-[repeat(3,400px)] gap-2 w-[90%] mx-auto">
+        <div className="grid grid-cols-3 grid-rows-[repeat(3,400px)] gap-2 w-[90%] mx-auto sm:grid-cols-1 sm:grid-rows-9 z-[99999]">
           {[...Array(9)].map((_, index) => (
             <div
               key={index}
-              className="relative cursor-pointer overflow-hidden"
+              className="relative cursor-pointer overflow-hidden z-[99999]"
             >
               <img
                 src={`https://www.procaphair.com.br/wp-content/uploads/2020/04/megahair.jpg`}
@@ -34,10 +34,10 @@ function GallerySection() {
         </div>
         <div className="center my-12">
           <a
-            href="https://www.instagram.com/seuusuario"
+            href="https://www.instagram.com/islava.eu"
             target="_blank"
             rel="noopener noreferrer"
-            className=" main-button center"
+            className=" main-button center sm:!w-[90%]"
           >
             <FaInstagram size={35} />
             <span className="ml-2">{t("cta")}</span>

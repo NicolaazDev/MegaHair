@@ -28,10 +28,10 @@ function Footer() {
   };
 
   return (
-    <footer className="bg-foreground text-white py-10">
+    <footer className="bg-foreground text-white py-10 sm:mt-5">
       <div className="max-w-[1440px] w-full mx-auto px-4">
-        <div className="flex flex-wrap justify-between">
-          <div className="w-1/3 mb-6 md:mb-0">
+        <div className="flex flex-wrap justify-between sm:flex-col">
+          <div className="w-1/3 mb-6 sm:w-full">
             <h4 className="text-xl font-bold mb-4"> {t("linkTitle")}</h4>
             <ul>
               <li className="mb-2">
@@ -82,7 +82,7 @@ function Footer() {
             </ul>
           </div>
 
-          <div className="w-1/3 mb-6 md:mb-0">
+          <div className="w-1/3 mb-6 sm:w-full">
             <h4 className="text-xl font-bold mb-4">{t("contact")}</h4>
             <ul>
               <li className="mb-2 center-col !items-start">
@@ -100,7 +100,7 @@ function Footer() {
             </ul>
           </div>
 
-          <div className="w-1/3 mb-6 md:mb-0">
+          <div className="w-1/3 mb-6 sm:w-full">
             <h4 className="text-xl font-bold mb-4"> {t("titleAbout")}</h4>
             <p className="text-gray-400">{t("about")}</p>
           </div>

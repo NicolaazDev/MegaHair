@@ -34,7 +34,7 @@ function FAQSection() {
   return (
     <section id="faq" className="py-12">
       <div className="max-w-[1440px] mx-auto px-4">
-        <h2 className="text-[70px] uppercase font-bold mb-8 text-center">
+        <h2 className="text-[70px] uppercase font-bold mb-8 text-center sm:leading-[1] sm:text-[45px]">
           {t("title")}
         </h2>
         <div className="space-y-4">

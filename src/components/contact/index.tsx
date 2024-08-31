@@ -83,15 +83,18 @@ function ContactSection() {
   }, []);
 
   return (
-    <section id="contact" className="center h-screen relative overflow-hidden">
+    <section
+      id="contact"
+      className="center h-screen sm:h-auto relative overflow-hidden bg-background sm:pb-10"
+    >
       <img
         ref={logoRef}
         src="https://res.cloudinary.com/dmceve2cp/image/upload/v1724886824/ISLAVA-13_akotrc.png"
-        className="absolute w-[200px] h-[200px] object-cover bottom-0 left-0 scale-[7] z-0 -rotate-45 invert-[.7] opacity-100"
+        className="absolute w-[200px] h-[200px] z-[0] object-cover bottom-0 left-0 scale-[7] -rotate-45 invert-[.7] opacity-100 sm:!scale-[2.5] sm:bottom-[20%] sm:hidden"
       />
-      <div className="max-w-[1440px] mx-auto center w-full h-full">
-        <div className="w-[50%] p-8 rounded-lg z-[14]">
-          <h2 className="text-[80px] leading-[1.1] font-bold mb-6 uppercase">
+      <div className="max-w-[1440px] mx-auto center w-full h-full sm:center-col">
+        <div className="w-[50%] p-8 rounded-lg z-[14] sm:w-full">
+          <h2 className="text-[80px] leading-[1.1] font-bold mb-6 uppercase sm:text-[60px] sm:leading-[1.1] sm:text-center">
             {t("title")}
           </h2>
           <form onSubmit={handleSubmit(onSubmit)} className="contact-form">
@@ -138,26 +141,9 @@ function ContactSection() {
             </button>
           </form>
         </div>
-        <div className="bg-primary h-[80%] rounded-2xl w-[50%]">
-          {/* <MapContainer
-            className="z-20 h-full w-full"
-            center={[41.2049, -8.2826]}
-            zoom={13}
-            scrollWheelZoom={false}
-            style={{ height: "100%" }}
-          >
-            <TileLayer
-              attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-            />
-            <Marker position={[41.2049, -8.2826]}>
-              <Popup>
-                A pretty CSS3 popup. <br /> Easily customizable.
-              </Popup>
-            </Marker>
-          </MapContainer> */}
+        <div className="bg-primary h-[80%] rounded-2xl w-[50%] z-[11] sm:w-[85%]">
           <img
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover z-[999] rounded-2xl"
             src="https://res.cloudinary.com/dmceve2cp/image/upload/v1725045433/imagem_2024-08-30_161710974_edwiru.png"
           />
         </div>

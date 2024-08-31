@@ -1,17 +1,23 @@
-import type { Metadata } from "next";
-
 import { NextIntlClientProvider } from "next-intl";
-import { getMessages } from "next-intl/server";
+import { getMessages, getTranslations } from "next-intl/server";
 import { Toaster } from "@/components/ui/sonner";
 
 import "../../styles/globals.css";
 
 import { FormProvider } from "@/context/formContext";
 
-export const metadata: Metadata = {
-  title: "Islava - Loja de Mega Hair",
-  description: "Islava - Loja de Mega Hair",
-};
+export async function generateMetadata({
+  params: { locale },
+}: {
+  params: { locale: string };
+}) {
+  const t = await getTranslations({ locale, namespace: "metadata" });
+
+  return {
+    title: t("title"),
+    description: t("description"),
+  };
+}
 
 export default async function RootLayout({
   children,

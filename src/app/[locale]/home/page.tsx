@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import Hero from "@/components/hero";
 import ProductsSection from "@/components/products";
@@ -16,6 +16,26 @@ import { useTranslations } from "next-intl";
 export default function Home() {
   const t = useTranslations("whatsapp");
 
+  const [iconSize, setIconSize] = useState(60);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth <= 768) {
+        setIconSize(30);
+      } else {
+        setIconSize(60);
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    handleResize();
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <main className="relative bg-background">
       <FloatingWhatsAppButton
@@ -23,7 +43,7 @@ export default function Home() {
         message={t("text")}
         position="bottom-right"
         bgColor="#25D366"
-        iconSize={60}
+        iconSize={iconSize}
       />
       <Hero />
       <ProductsSection />

@@ -29,7 +29,7 @@ const FloatingWhatsAppButton: React.FC<FloatingWhatsAppButtonProps> = ({
 
   return (
     <div
-      className={`fixed ${buttonPosition} bottom-10 cursor-pointer z-50 whatsapp-btn`}
+      className={`fixed ${buttonPosition} bottom-10 cursor-pointer z-[9999999] whatsapp-btn`}
       onClick={handleClick}
       style={{
         backgroundColor: bgColor,

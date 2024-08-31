@@ -29,6 +29,9 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     color: transparent;
+
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #8e704921;
   }
 
   .secondarytext-gradient {

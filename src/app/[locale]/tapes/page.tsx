@@ -31,18 +31,18 @@ function TapeTypePage() {
   }, []);
 
   return (
-    <main className=" relative min-h-screen">
+    <main className=" relative min-h-screen !bg-foreground">
       <Header className="!bg-foreground" />
-      <div className="w-full h-screen bg-foreground center relative overflow-hidden">
+      <div className="w-full h-screen bg-foreground center relative overflow-hidden sm:items-start">
         <h1
           ref={titleRef}
-          className="text-[24vw] leading-[0.8] translate-y-[100px] text-secondary font-bold font-bowens text-center absolute opacity-90"
+          className="text-[24vw] sm:text-[40vw] sm:!translate-y-[140px] leading-[0.8] translate-y-[100px] text-secondary font-bold font-bowens text-center absolute opacity-90"
         >
           <motion.span
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
-            className="absolute rounded-3xl z-40 !inline-block bg-foreground border border-solid border-secondary py-7 px-3 top-[10%] right-[10%] text-secondary font-bold font-montserrat text-[20px]"
+            className="absolute rounded-3xl z-40 !inline-block bg-foreground border border-solid border-secondary py-7 px-3 top-[10%] right-[10%] text-secondary font-bold font-montserrat text-[20px] sm:!top-auto sm:bottom-0 sm: translate-y-[170%] sm:!right-[50%] sm:!translate-x-[50%] sm:whitespace-nowrap"
           >
             {t("cooming")}
           </motion.span>
@@ -54,14 +54,16 @@ function TapeTypePage() {
           >
             TAPE
           </motion.span>
-          <br />{" "}
+          <br />
           <motion.span
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
             className=" !inline-block "
           >
-            SYSTEM
+            SYS
+            <br className="!hidden sm:block" />
+            TEM
           </motion.span>
         </h1>
         <motion.img
@@ -72,8 +74,8 @@ function TapeTypePage() {
           src="https://res.cloudinary.com/dmceve2cp/image/upload/v1725035493/Animation_-_1725035102180_2_lap8zu.gif"
         />
       </div>
-      <div className="bg-foreground center px-14 py-12">
-        <h1 className="max-w-[1440px] w-full text-center text-[50px] font-bold text-background leading-[1] uppercase">
+      <div className="bg-foreground center px-14 py-12 sm:px-3">
+        <h1 className="max-w-[1440px] w-full text-center text-[50px] font-bold text-background leading-[1] uppercase sm:text-[25px]">
           {t("description")}
         </h1>
       </div>

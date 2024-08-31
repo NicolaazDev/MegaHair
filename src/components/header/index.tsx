@@ -21,7 +21,7 @@ import {
 
 function HeaderTopBar() {
   return (
-    <div className="w-full min-h-[40px] bg-red-900 center text-white">
+    <div className="w-full min-h-[40px] bg-red-900 center text-white sm:hidden">
       <div className="flex space-x-12 max-w-[1440px] w-full !justify-end [&>a]:font-montserrat [&>a]:font-[200]">
         <a
           href="mailto:islava.adm@gmail.com"
@@ -88,6 +88,10 @@ const Header: React.FC<HeaderProps> = ({ className }) => {
   const router = useRouter();
   const pathname = usePathname();
 
+  const changeLocale = (newLocale: string) => {
+    router.push(newLocale);
+  };
+
   const handleScroll = (
     e: React.MouseEvent<HTMLAnchorElement, MouseEvent>,
     targetId: string
@@ -146,10 +150,10 @@ const Header: React.FC<HeaderProps> = ({ className }) => {
   return (
     <AnimatePresence>
       <header
-        className={`bg-transparent absolute top-0 text-foreground w-full center-col !justify-start h-[80px] z-10 ${className}`}
+        className={`bg-transparent absolute top-0 text-foreground w-full center-col !justify-start h-[80px] sm:pt-8 z-10 ${className}`}
       >
         <HeaderTopBar />
-        <div className="center font-montserrat !justify-between !max-w-[1440px] w-full relative">
+        <div className="center font-montserrat !justify-between !max-w-[1440px] w-full h-auto relative">
           <div className="sm:flex hidden">
             <button
               className="text-white focus:outline-none z-30 ml-4"
@@ -214,37 +218,30 @@ const Header: React.FC<HeaderProps> = ({ className }) => {
               exit={{ opacity: 0, y: -50 }}
               transition={{ duration: 0.3 }}
             >
-              <a
-                href="#features"
-                onClick={(e) => handleScroll(e, "features")}
-                className="hover:border-b-background border border-solid border-transparent transition-all"
-              >
-                Funcionalidades
-              </a>
-              <a
-                href="#pricing"
-                onClick={(e) => handleScroll(e, "pricing")}
-                className="hover:border-b-background border border-solid border-transparent transition-all"
-              >
-                Preços
-              </a>
-              <a
-                href="#signup"
-                onClick={(e) => {
-                  if (!isRegister) toggleForm();
-                }}
-                className="hover:border-b-background border border-solid border-transparent transition-all"
-              >
-                Cadastre-se
-              </a>
-              <button
-                onClick={(e) => {
-                  if (isRegister) toggleForm();
-                }}
-                className="main-gradient w-[80%] text-center text-white font-poppinsLight py-2 px-4 rounded"
-              >
-                Login
-              </button>
+              {links.map((link, index) => (
+                <a
+                  key={link.id}
+                  href={`/#${link.id}`}
+                  onClick={(e) => handleScroll(e, link.id)}
+                  className="hover:border-b-background border border-solid border-transparent"
+                >
+                  {link.label}
+                </a>
+              ))}
+              {linksRight.map((link, index) => (
+                <a
+                  key={link.id}
+                  href={`/#${link.id}`}
+                  onClick={(e) => handleScroll(e, link.id)}
+                  className="hover:border-b-background border border-solid border-transparent"
+                >
+                  {link.label}
+                </a>
+              ))}
+              <div className="w-full center space-x-2">
+                <a onClick={() => changeLocale("pt")}>PT-BR</a>
+                <a onClick={() => changeLocale("en")}>EN-US</a>
+              </div>
             </motion.div>
           )}
         </AnimatePresence>
