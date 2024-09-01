@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Mega Hair
 
-## Getting Started
+Mega Hair é um site dedicado à venda de cabelo para uma loja em Portugal. O projeto inclui um sistema de envio de e-mails usando EmailJS e Gmail SMTP, suporte para internacionalização com Next Intl em inglês e português, animações de scroll com GSAP, e estilização moderna com TailwindCSS. 
 
-First, run the development server:
+## Tecnologias Utilizadas
+
+- **Next.js**: Framework React para construção de aplicações web.
+- **EmailJS**: Serviço para envio de e-mails diretamente do frontend.
+- **Gmail SMTP**: Provedor para envio de e-mails.
+- **Next Intl**: Biblioteca para internacionalização, com suporte para inglês e português.
+- **GSAP**: Biblioteca para animações de alta performance, especialmente para scroll.
+- **Framer Motion**: Biblioteca para animações de React.
+- **TailwindCSS**: Framework de estilização CSS utilitário.
+
+## Link de Deploy
+
+Você pode conferir a landing page ao vivo [Vercel Deploy](https://mega-hair.vercel.app).
+
+## Screenshots
+
+![Screenshot 1](https://res.cloudinary.com/dmceve2cp/image/upload/v1725158521/imagem_2024-08-31_234146144_recjnh.png)
+![Screenshot 2](https://res.cloudinary.com/dmceve2cp/image/upload/v1725158526/imagem_2024-08-31_234203934_bqzdpg.png)
+
+## Instalação
+
+Clone o repositório e instale as dependências:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/NicolaazDev/MegaHair.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```bash
+cd drone-shop
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Desenvolvimento
 
-## Learn More
+Para iniciar o ambiente de desenvolvimento, execute:
 
-To learn more about Next.js, take a look at the following resources:
+```bash 
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Acesse `http://localhost:3000` no seu navegador para visualizar o projeto em desenvolvimento.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Construção
 
-## Deploy on Vercel
+Para criar uma versão de produção do projeto, use:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm run build
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
