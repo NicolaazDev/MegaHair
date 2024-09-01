@@ -104,6 +104,7 @@ function ContactSection() {
                 type="text"
                 {...register("nome")}
                 placeholder="Johnny Doe"
+                className="input"
               />
               {errors.nome && <p>{errors.nome.message}</p>}
             </div>
@@ -113,6 +114,7 @@ function ContactSection() {
                 type="email"
                 {...register("email")}
                 placeholder="myemail@email.com"
+                className="input"
               />
               {errors.email && <p>{errors.email.message}</p>}
             </div>
