@@ -205,23 +205,21 @@
     border-color: transparent !important;
   }
 
-  .contact-form {
-    .input-field {
-      @apply w-full;
+  .contact-form .contact-button {
+    @apply w-full bg-secondary hover:bg-secondary hover:text-foreground text-foreground;
+  }
 
-      .input,
-      input {
-        @apply w-full h-[50px] px-4 py-2 border border-gray-300 border-solid bg-gray-100 rounded-lg focus:!border-blue-500 focus-visible:border-gray-300;
-      }
+  .contact-form .input-field {
+    @apply w-full;
+  }
 
-      textarea {
-        @apply w-full h-[50px] px-4 py-2 border border-gray-300 min-w-[100%] min-h-[150px] max-h-[55px] border-solid bg-gray-100 rounded-lg focus:!border-blue-500 focus-visible:border-gray-300;
-      }
-    }
+  .contact-form .input,
+  input {
+    @apply w-full h-[50px] px-4 py-2 border border-gray-300 border-solid bg-gray-100 rounded-lg focus:!border-blue-500 focus-visible:border-gray-300;
+  }
 
-    .contact-button {
-      @apply w-full bg-secondary hover:bg-secondary hover:text-foreground text-foreground;
-    }
+  .contact-form textarea {
+    @apply w-full h-[50px] px-4 py-2 border border-gray-300 min-w-[100%] min-h-[150px] max-h-[55px] border-solid bg-gray-100 rounded-lg focus:!border-blue-500 focus-visible:border-gray-300;
   }
 }
 
