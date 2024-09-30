@@ -12,39 +12,39 @@ export const ProductsSection = () => {
       name: "Mega Hair Natural",
 
       image:
-        "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSHeyP6mPS7LFWtFTjBi5vrDg63VI9xa3sSt3KGPd55vvN0354Q-JZQkLxQXpBeSpgzgBhdO2VHcsn3RLzZxj-8KXZvka313MNRAtOIQU8&usqp=CAE",
+        "https://res.cloudinary.com/dmceve2cp/image/upload/v1727314624/IMG_5032_mcpz7p.jpg",
     },
     {
       id: 2,
       name: "Mega Hair Cacheado",
       image:
-        "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSHeyP6mPS7LFWtFTjBi5vrDg63VI9xa3sSt3KGPd55vvN0354Q-JZQkLxQXpBeSpgzgBhdO2VHcsn3RLzZxj-8KXZvka313MNRAtOIQU8&usqp=CAE",
+        "https://res.cloudinary.com/dmceve2cp/image/upload/v1727314625/IMG_5033_ts7vvu.jpg",
     },
     {
       id: 3,
       name: "Mega Hair Liso",
 
       image:
-        "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSHeyP6mPS7LFWtFTjBi5vrDg63VI9xa3sSt3KGPd55vvN0354Q-JZQkLxQXpBeSpgzgBhdO2VHcsn3RLzZxj-8KXZvka313MNRAtOIQU8&usqp=CAE",
+        "https://res.cloudinary.com/dmceve2cp/image/upload/v1727314625/IMG_5029_ecjf4b.jpg",
     },
     {
       id: 13,
       name: "Mega Hair Natural",
 
       image:
-        "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSHeyP6mPS7LFWtFTjBi5vrDg63VI9xa3sSt3KGPd55vvN0354Q-JZQkLxQXpBeSpgzgBhdO2VHcsn3RLzZxj-8KXZvka313MNRAtOIQU8&usqp=CAE",
+        "https://res.cloudinary.com/dmceve2cp/image/upload/v1727314625/IMG_5030_ocyrsj.jpg",
     },
     {
       id: 42,
       name: "Mega Hair Cacheado",
       image:
-        "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSHeyP6mPS7LFWtFTjBi5vrDg63VI9xa3sSt3KGPd55vvN0354Q-JZQkLxQXpBeSpgzgBhdO2VHcsn3RLzZxj-8KXZvka313MNRAtOIQU8&usqp=CAE",
+        "https://res.cloudinary.com/dmceve2cp/image/upload/v1727314624/IMG_5035_fsfiek.jpg",
     },
     {
       id: 35,
       name: "Mega Hair Liso",
       image:
-        "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSHeyP6mPS7LFWtFTjBi5vrDg63VI9xa3sSt3KGPd55vvN0354Q-JZQkLxQXpBeSpgzgBhdO2VHcsn3RLzZxj-8KXZvka313MNRAtOIQU8&usqp=CAE",
+        "https://res.cloudinary.com/dmceve2cp/image/upload/v1727314624/IMG_5034_vjalbw.jpg",
     },
   ];
 

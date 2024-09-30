@@ -3,6 +3,46 @@
 import { useTranslations } from "next-intl";
 import { FaInstagram } from "react-icons/fa";
 
+const photosArray = [
+  {
+    imgSrc: "/gif1.gif",
+  },
+  {
+    imgSrc: "/gif2.gif",
+  },
+  {
+    imgSrc:
+      "https://res.cloudinary.com/dmceve2cp/image/upload/v1727314625/IMG_5033_ts7vvu.jpg",
+  },
+  {
+    imgSrc:
+      "https://res.cloudinary.com/dmceve2cp/image/upload/v1727314625/IMG_5029_ecjf4b.jpg",
+  },
+
+  {
+    imgSrc:
+      "https://res.cloudinary.com/dmceve2cp/image/upload/v1727314625/IMG_5030_ocyrsj.jpg",
+  },
+
+  {
+    imgSrc:
+      "https://res.cloudinary.com/dmceve2cp/image/upload/v1727314624/IMG_5032_mcpz7p.jpg",
+  },
+  {
+    imgSrc:
+      "https://res.cloudinary.com/dmceve2cp/image/upload/v1727314546/IMG_5025_m2o5eh.jpg",
+  },
+
+  {
+    imgSrc:
+      "https://res.cloudinary.com/dmceve2cp/image/upload/v1727314546/IMG_5026_oqer4p.jpg",
+  },
+  {
+    imgSrc:
+      "https://res.cloudinary.com/dmceve2cp/image/upload/v1727314546/IMG_5027_ufb1hj.jpg",
+  },
+];
+
 function GallerySection() {
   const t = useTranslations("gallery");
 
@@ -16,13 +56,13 @@ function GallerySection() {
           {t("title")}
         </h2>
         <div className="grid grid-cols-3 grid-rows-[repeat(3,400px)] gap-2 w-[90%] mx-auto sm:grid-cols-1 sm:grid-rows-9 z-[99999]">
-          {[...Array(9)].map((_, index) => (
+          {photosArray.map((_, index) => (
             <div
               key={index}
               className="relative cursor-pointer overflow-hidden z-[99999]"
             >
               <img
-                src={`https://www.procaphair.com.br/wp-content/uploads/2020/04/megahair.jpg`}
+                src={_.imgSrc}
                 alt={`Imagem ${index + 1}`}
                 className="w-full h-full object-cover rounded-lg"
               />

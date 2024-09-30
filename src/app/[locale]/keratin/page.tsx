@@ -77,7 +77,7 @@ function KeratinTypesPage() {
       <div className="w-full h-full bg-foreground mx-auto px-4 py-7 space-y-[100px] pb-[100px]">
         <section className="max-w-[1440px] mx-auto w-full center !justify-between overflow-hidden sm:center-col">
           <img
-            src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-464575644-1595615606.jpg"
+            src="https://res.cloudinary.com/dmceve2cp/image/upload/v1727314546/IMG_5027_ufb1hj.jpg"
             alt={t("section1")}
             className="max-w-[60%] w-full h-[420px] object-cover rounded-lg sm:max-w-[90%]"
           />
@@ -90,7 +90,7 @@ function KeratinTypesPage() {
 
         <section className="max-w-[1440px] mx-auto w-full center !justify-between overflow-hidden !flex-row-reverse sm:center-col sm:!flex-col">
           <img
-            src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-464575644-1595615606.jpg"
+            src="https://res.cloudinary.com/dmceve2cp/image/upload/v1727314546/IMG_5025_m2o5eh.jpg"
             alt={t("section2")}
             className="max-w-[60%] w-full h-[420px] object-cover rounded-lg sm:max-w-[90%]"
           />
@@ -103,7 +103,7 @@ function KeratinTypesPage() {
 
         <section className="max-w-[1440px] mx-auto w-full center !justify-between overflow-hidden sm:center-col ">
           <img
-            src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-464575644-1595615606.jpg"
+            src="https://res.cloudinary.com/dmceve2cp/image/upload/v1727314625/IMG_5033_ts7vvu.jpg"
             alt={t("section3")}
             className="max-w-[60%] w-full h-[420px] object-cover rounded-lg sm:max-w-[90%]"
           />
@@ -125,9 +125,9 @@ function KeratinTypesPage() {
           <div className="center w-full space-x-10 !items-start sm:center-col sm:!space-x-0 sm:space-y-5 sm:!items-center">
             <div className="w-[50%] center-col sm:w-[90%] sm:mx-auto">
               <img
-                src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-464575644-1595615606.jpg"
+                src="https://res.cloudinary.com/dmceve2cp/image/upload/v1727727541/IMG_5071_copy1_rzsatb.jpg"
                 alt={t("section4.title1")}
-                className="max-w-full w-full h-[450px] object-cover rounded-lg"
+                className="max-w-full w-full h-[450px] object-cover rounded-lg !object-[50%_100%]"
               />
               <h1 className="w-full mt-7 text-center text-[60px] leading-[0.9] font-bold text-background uppercase">
                 {t("section4.title1")}
@@ -138,9 +138,9 @@ function KeratinTypesPage() {
             </div>
             <div className="w-[50%] center-col sm:w-[90%] sm:mx-auto sm:!mt-[100px]">
               <img
-                src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-464575644-1595615606.jpg"
+                src="https://res.cloudinary.com/dmceve2cp/image/upload/v1727727540/IMG_5073_os1dez.jpg"
                 alt={t("section4.title2")}
-                className="max-w-full w-full h-[450px] object-cover rounded-lg"
+                className="max-w-full w-full h-[450px] object-cover rounded-lg !object-[50%_100%]"
               />
               <h1 className="w-full mt-7 text-center text-[60px] leading-[0.9] font-bold text-background uppercase">
                 {t("section4.title2")}
